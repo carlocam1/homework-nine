@@ -1,0 +1,46 @@
+nav {
+    position: fixed;
+    height: 100px;
+    width: 80%;
+    // background-color: cadetblue;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    z-index: 99;
+
+    .logo {
+        width: 100px;
+        height: 50px;
+        // background-color: blueviolet;
+
+        img {
+            width: 100px;
+            height: 100%;
+        }
+    }
+
+    .links {
+        min-width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            font-family: GillSans;
+            font-size: 20px;
+            color: #000;
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    nav {
+      flex-direction: column;
+    }  
+  }

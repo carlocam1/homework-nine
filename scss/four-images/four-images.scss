@@ -1,0 +1,41 @@
+.four-images {
+    max-width: 100%;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: burlywood;
+    font-family: GillSans;
+
+    .container {
+        // position: relative;
+        margin-top: 40px;
+        width: 275px;
+        height: 320px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 15px;
+
+        img {
+            width: 275px;
+            height: 320px;  
+            object-position: center ;
+            object-fit: cover;
+            opacity: .7;
+            border-radius: 15px;
+        }
+
+        .inner-text {
+            position: absolute;
+
+            p {
+                font-size: 20px;
+                background-color: #fff;
+                border-radius: 30px;
+                text-align: center;
+                padding: 5px;
+                color: #000;
+            }
+        }
+    }
+
+}

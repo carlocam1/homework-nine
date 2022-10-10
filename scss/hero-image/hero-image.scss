@@ -1,0 +1,39 @@
+.picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .hero {
+        padding-top: 140px;
+        width: 100%;
+        min-height: 400px;
+        // background-color: brown;
+
+        .hero-image {            
+            .callout {
+                width: 416px;
+                height: 226px;
+                color: #fff;
+                text-align: center;
+
+                h1 {
+                    font-size: 60px;
+                    font-style: normal;
+                    font-family: ProximaNovaScOsfExtraCondensed;
+                    text-transform: lowercase;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-style: italic;
+                    font-family: Gillsans;
+                    line-height: 23px;
+                    
+                }
+            }
+        }
+    }

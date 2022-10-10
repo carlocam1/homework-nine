@@ -1,0 +1,31 @@
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.60));
+    
+    .footer-container {
+        margin: 0 auto;
+        max-width: 80%;
+        height: 100px;
+        padding: 0 10px;
+        // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.40));
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .copyright {
+            color: #fff;
+            font-size: 16px;
+            font-family: Gillsans;
+        }
+
+        .logo {
+           
+            img {
+                width: 100px;
+                height: 50px;
+            }
+        }
+    }
+}
